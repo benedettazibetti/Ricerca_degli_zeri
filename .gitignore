@@ -1,0 +1,24 @@
+# --- MATLAB Specific ---
+# File di auto-salvataggio (fondamentale!)
+*.asv
+*.m~
+
+# File di cache di Simulink
+slprj/
+*.slxc
+*.mex*
+
+# Log di crash e file temporanei
+matlab_crash_dump.*
+*.log
+
+# --- Dati e Risultati ---
+# Se i tuoi file .mat sono molto grandi o cambiano sempre, meglio ignorarli.
+# Se invece sono necessari per far girare l'esame, NON mettere questa riga:
+*.mat
+
+# --- Sistema e Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
