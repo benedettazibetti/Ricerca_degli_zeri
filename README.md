@@ -4,8 +4,14 @@
 Questo progetto riguarda l'implementazione e il confronto di diversi metodi numerici per la ricerca degli zeri di una funzione non lineare multivariata.
 
 La funzione analizzata $F: \mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$ è definita come:
-- $F(x,y) = \begin{pmatrix} \arctan(x) + (x + 1/2)y \\ y(2 + \cos(y)) + 2x \end{pmatrix}$
-- 
+
+$$
+F(x,y) = \begin{pmatrix} 
+\arctan(x) + (x + 1/2)y \\ 
+y(2 + \cos(y)) + 2x 
+\end{pmatrix}
+$$
+  
 Il sistema presenta uno zero nell'origine delle coordinate $(\overline{x},\overline{y})=(0,0)$.
 
 ## Metodi Implementati
